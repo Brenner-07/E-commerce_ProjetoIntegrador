@@ -1,0 +1,932 @@
+<style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+      }
+      .home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  width: 1600px;
+  height: 5491px;
+  position: relative;
+  overflow: hidden;
+}
+.introdu-o {
+  position: absolute;
+  inset: 0;
+}
+.bg {
+  background: #000000;
+  width: 1600px;
+  height: 692px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.patinetes-el-tricos-de-alta-precis-o-e-qualidade-feitos-sob-medida-para-o-cliente-explore-o-mundo-na-sua-velocidade-com-a-compor {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 400 24px/36px "Inter", sans-serif;
+  position: absolute;
+  left: 218px;
+  top: 472px;
+  width: 544px;
+  height: 121px;
+}
+.patinetes-feitos-sob-medida {
+  text-align: left;
+  font: 600 64px/72px "Poppins", sans-serif;
+  position: absolute;
+  left: 216px;
+  top: 296px;
+}
+.patinetes-feitos-sob-medida-span {
+  color: var(--c-01, #ffffff);
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.patinetes-feitos-sob-medida-span2 {
+  color: #1400ff;
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.patinetes-feitos-sob-medida-span3 {
+  color: var(--c-01, #ffffff);
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.introducao {
+  width: 632px;
+  height: 800px;
+  position: absolute;
+  left: 829px;
+  top: 92px;
+}
+.botao {
+  background: #1400ff;
+  border-radius: 5px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 220px;
+  top: 613px;
+}
+.selecione-o-seu {
+  color: #ffffff;
+  text-align: left;
+  font: 600 18px/24px "Poppins", sans-serif;
+  position: relative;
+}
+.bike-modelos {
+  position: absolute;
+  inset: 0;
+}
+.group-2 {
+  width: 1126px;
+  height: 72px;
+  position: static;
+}
+.cereb {
+  color: var(--c-11, #121212);
+  text-align: left;
+  font: 600 32px/40px "Poppins", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 1546px;
+}
+.element {
+  color: var(--c-11, #121212);
+  text-align: left;
+  font: 600 32px/40px "Poppins", sans-serif;
+  position: absolute;
+  left: 588px;
+  top: 1546px;
+}
+.extense {
+  color: var(--c-11, #121212);
+  text-align: left;
+  font: 600 32px/40px "Poppins", sans-serif;
+  position: absolute;
+  left: 1086px;
+  top: 1546px;
+}
+.r-1-399 {
+  color: var(--c-08, #595959);
+  text-align: left;
+  font: 500 18px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 1594px;
+}
+.r-2-499 {
+  color: var(--c-08, #595959);
+  text-align: left;
+  font: 500 18px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 588px;
+  top: 1594px;
+}
+.r-1-299 {
+  color: var(--c-08, #595959);
+  text-align: left;
+  font: 500 18px/24px "Roboto", sans-serif;
+  position: absolute;
+  left: 1086px;
+  top: 1594px;
+}
+.group-1 {
+  width: 1460px;
+  height: 520px;
+  position: static;
+}
+.extense-home {
+  width: 460px;
+  height: 520px;
+  position: absolute;
+  left: 1070px;
+  top: 1008px;
+}
+.element-home {
+  width: 460px;
+  height: 520px;
+  position: absolute;
+  left: 570px;
+  top: 1008px;
+}
+.cereb-home {
+  width: 460px;
+  height: 520px;
+  position: absolute;
+  left: 70px;
+  top: 1008px;
+}
+.escolha-o-seu {
+  text-align: left;
+  font: 600 64px/72px "Poppins", sans-serif;
+  text-transform: lowercase;
+  position: absolute;
+  left: 218px;
+  top: 900px;
+}
+.escolha-o-seu-span {
+  color: #000000;
+  font: 600 64px/72px "Poppins", sans-serif;
+  text-transform: lowercase;
+}
+.escolha-o-seu-span2 {
+  color: var(--p-1, #ffbb00);
+  font: 600 64px/72px "Poppins", sans-serif;
+  text-transform: lowercase;
+}
+.escolha-o-seu-span3 {
+  color: #000000;
+  font: 600 64px/72px "Poppins", sans-serif;
+  text-transform: lowercase;
+}
+.ellipse-1 {
+  background: var(--p-1, #ffbb00);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 71px;
+  top: 1562px;
+}
+.ellipse-2 {
+  background: var(--p-1, #ffbb00);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 574px;
+  top: 1563px;
+}
+.ellipse-3 {
+  background: var(--p-1, #ffbb00);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 1072px;
+  top: 1563px;
+}
+.bg-3 {
+  background: var(--c-11, #121212);
+  width: 1600px;
+  height: 960px;
+  position: absolute;
+  left: 0px;
+  top: 1830px;
+}
+.diferencial {
+  position: absolute;
+  inset: 0;
+}
+.voc-escolhe-as-suas-cores-e-componentes {
+  text-align: left;
+  font: 600 64px/72px "Poppins", sans-serif;
+  position: absolute;
+  left: 219px;
+  top: 1976px;
+  width: 537px;
+}
+.voc-escolhe-as-suas-cores-e-componentes-span {
+  color: var(--c-01, #ffffff);
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.voc-escolhe-as-suas-cores-e-componentes-span2 {
+  color: var(--p-1, #ffbb00);
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.tecnologia-avan-ada {
+  color: var(--c-06, #9c9c9c);
+  text-align: left;
+  font: 500 24px/32px "Roboto", sans-serif;
+  position: absolute;
+  left: 219px;
+  top: 1920px;
+}
+.cada-compor-nica-e-possui-a-sua-identidade-as-medidas-ser-o-exatas-para-o-seu-corpo-e-altura-garantindo-maior-conforto-e-ergonomia-na-sua-experi-ncia-voc-pode-tamb-m-personalizar-completamente-as-suas-cores {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 400 24px/36px "Inter", sans-serif;
+  position: absolute;
+  left: 219px;
+  top: 2224px;
+  width: 562px;
+  height: 189px;
+}
+.link {
+  width: 273px;
+  height: 45px;
+  position: static;
+}
+.escolha-seu-modelo {
+  color: #1400ff;
+  text-align: left;
+  font: 600 24px/36px "Poppins", sans-serif;
+  position: absolute;
+  left: 219px;
+  top: 2429px;
+}
+.rectangle-35 {
+  background: #1400ff;
+  width: 269px;
+  height: 4px;
+  position: absolute;
+  left: 220px;
+  top: 2470px;
+}
+.cores {
+  width: 700px;
+  height: 1120px;
+  position: absolute;
+  left: 819px;
+  top: 1750px;
+}
+.caracteristicas {
+  width: 561px;
+  height: 150px;
+  position: static;
+}
+.toda-compor-equipada-com-um-motor-el-trico-que-possui-dura-o-de-at-120-h-a-bateria-recarregav-l-com-litium {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 400 16px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 220px;
+  top: 2628px;
+  width: 271px;
+  height: 102px;
+}
+.sabemos-o-qu-o-preciosa-a-sua-compor-por-isso-adicionamos-rastreadores-e-sistemas-anti-furto-para-garantir-o-seu-sossego {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 400 16px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 511px;
+  top: 2624px;
+  width: 268px;
+  height: 104px;
+}
+.rastreador {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px/36px "Poppins", sans-serif;
+  position: absolute;
+  left: 511px;
+  top: 2580px;
+}
+.motor-el-trico {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px/36px "Poppins", sans-serif;
+  position: absolute;
+  left: 218px;
+  top: 2584px;
+}
+.nossos-parceiros {
+  color: #000000;
+  text-align: left;
+  font: 600 64px/72px "Poppins", sans-serif;
+  position: absolute;
+  left: 216px;
+  top: 2990px;
+}
+.linhas {
+  position: absolute;
+  inset: 0;
+}
+.ranek {
+  position: absolute;
+  left: 554px;
+  top: 3169px;
+  overflow: visible;
+}
+.ranek2 {
+  position: absolute;
+  left: 917px;
+  top: 3169px;
+  overflow: visible;
+}
+.ranek3 {
+  position: absolute;
+  left: 1231px;
+  top: 3169px;
+  overflow: visible;
+}
+.ranek4 {
+  position: absolute;
+  left: 1231px;
+  top: 3304px;
+  overflow: visible;
+}
+.ranek5 {
+  position: absolute;
+  left: 917px;
+  top: 3304px;
+  overflow: visible;
+}
+.ranek6 {
+  position: absolute;
+  left: 554px;
+  top: 3304px;
+  overflow: visible;
+}
+.ranek7 {
+  position: absolute;
+  left: 219px;
+  top: 3304px;
+  overflow: visible;
+}
+.rectangle-36 {
+  background: var(--c-06, #b3b3b3);
+  opacity: 0.20000000298023224;
+  width: 1400px;
+  height: 2px;
+  position: absolute;
+  left: 100px;
+  top: 3252px;
+}
+.rectangle-41 {
+  background: #c4c4c4;
+  width: 2px;
+  height: 260px;
+  position: absolute;
+  left: 445px;
+  top: 3128px;
+}
+.rectangle-43 {
+  background: #c4c4c4;
+  width: 2px;
+  height: 260px;
+  position: absolute;
+  left: 795px;
+  top: 3128px;
+}
+.rectangle-42 {
+  background: #c4c4c4;
+  width: 2px;
+  height: 260px;
+  position: absolute;
+  left: 1145px;
+  top: 3120px;
+}
+.vector8 {
+  position: absolute;
+  left: 230px;
+  top: 3176px;
+  overflow: visible;
+}
+.seguros {
+  position: absolute;
+  inset: 0;
+}
+.bg2 {
+  background: var(--c-11, #121212);
+  width: 1600px;
+  height: 952px;
+  position: absolute;
+  left: 0px;
+  top: 4073px;
+}
+.planos {
+  width: 1143px;
+  height: 469px;
+  position: static;
+}
+.planoprata {
+  width: 560px;
+  height: 394px;
+  position: static;
+}
+.blogplano {
+  background: var(--c-10, #2e2e2e);
+  border-radius: 5px;
+  width: 560px;
+  height: 394px;
+  position: absolute;
+  left: 220px;
+  top: 4466px;
+}
+.prata {
+  color: var(--c-06, #9c9c9c);
+  text-align: left;
+  font: 600 36px/41px "Poppins", sans-serif;
+  position: absolute;
+  left: 267px;
+  top: 4481px;
+}
+.duas-trocas-por-ano {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 264px;
+  top: 4566px;
+}
+.assistencia-tecnica {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 4610px;
+}
+.suporte-08-00-as-18-00 {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 4654px;
+}
+.cobertura-estadual {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 4698px;
+}
+.r-199 {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 600 36px/41px "Poppins", sans-serif;
+  position: absolute;
+  left: 617px;
+  top: 4479px;
+}
+.mensal {
+  color: var(--c-06, #9c9c9c);
+  text-align: left;
+  font: 600 12px/16px "Poppins", sans-serif;
+  position: absolute;
+  left: 683px;
+  top: 4514px;
+}
+.frame-3 {
+  background: var(--c-09, #404040);
+  border-radius: 5px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 263px;
+  top: 4754px;
+}
+.inscreva-se {
+  color: var(--c-04, #cccccc);
+  text-align: left;
+  font: 600 18px/24px "Poppins", sans-serif;
+  position: relative;
+}
+.vector-1 {
+  position: absolute;
+  left: 248px;
+  top: 4576px;
+  overflow: visible;
+}
+.vector-2 {
+  position: absolute;
+  left: 248px;
+  top: 4619px;
+  overflow: visible;
+}
+.vector-3 {
+  position: absolute;
+  left: 248px;
+  top: 4663px;
+  overflow: visible;
+}
+.vector-4 {
+  position: absolute;
+  left: 248px;
+  top: 4707px;
+  overflow: visible;
+}
+.planoouro {
+  width: 560px;
+  height: 469px;
+  position: static;
+}
+.blogplano2 {
+  background: var(--c-10, #2e2e2e);
+  border-radius: 5px;
+  width: 560px;
+  height: 469px;
+  position: absolute;
+  left: 803px;
+  top: 4436px;
+}
+.ouro {
+  color: #1400ff;
+  text-align: left;
+  font: 600 36px/41px "Poppins", sans-serif;
+  position: absolute;
+  left: 850px;
+  top: 4456px;
+}
+.cinco-trocas-por-ano {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 847px;
+  top: 4541px;
+}
+.assistencia-t-cnica {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 846px;
+  top: 4585px;
+}
+.suporte-24-h {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 846px;
+  top: 4629px;
+}
+.cobertura-nacional {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 846px;
+  top: 4673px;
+}
+.desconto-em-parceiros {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 846px;
+  top: 4717px;
+}
+.acesso-ao-clube-compor {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 500 18px/24px "Inter", sans-serif;
+  position: absolute;
+  left: 846px;
+  top: 4761px;
+}
+.r-299 {
+  color: var(--c-01, #ffffff);
+  text-align: left;
+  font: 600 36px/41px "Poppins", sans-serif;
+  position: absolute;
+  left: 1200px;
+  top: 4454px;
+}
+.mensal2 {
+  color: var(--c-06, #9c9c9c);
+  text-align: left;
+  font: 600 12px/16px "Poppins", sans-serif;
+  position: absolute;
+  left: 1266px;
+  top: 4489px;
+}
+.frame-32 {
+  background: #1400ff;
+  border-radius: 5px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 846px;
+  top: 4817px;
+}
+.inscreva-se2 {
+  color: #ffffff;
+  text-align: left;
+  font: 600 18px/24px "Poppins", sans-serif;
+  position: relative;
+}
+.lista {
+  position: absolute;
+  left: 830px;
+  top: 4550px;
+  overflow: visible;
+}
+.vector-22 {
+  position: absolute;
+  left: 831px;
+  top: 4594px;
+  overflow: visible;
+}
+.vector-32 {
+  position: absolute;
+  left: 831px;
+  top: 4638px;
+  overflow: visible;
+}
+.vector-42 {
+  position: absolute;
+  left: 831px;
+  top: 4682px;
+  overflow: visible;
+}
+.vector-5 {
+  position: absolute;
+  left: 831px;
+  top: 4726px;
+  overflow: visible;
+}
+.vector-6 {
+  position: absolute;
+  left: 831px;
+  top: 4770px;
+  overflow: visible;
+}
+.seguros2 {
+  text-align: left;
+  font: 600 64px/72px "Poppins", sans-serif;
+  position: absolute;
+  left: 217px;
+  top: 4304px;
+}
+.seguros-2-span {
+  color: var(--c-01, #ffffff);
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.seguros-2-span2 {
+  color: #1400ff;
+  font: 600 64px/72px "Poppins", sans-serif;
+}
+.depoimento {
+  position: absolute;
+  inset: 0;
+}
+.bg3 {
+  background: #1400ff;
+  width: 1600px;
+  height: 680px;
+  position: absolute;
+  left: 0px;
+  top: 3448px;
+}
+.patinete-sempre-foi-a-minha-paix-o-o-que-o-pessoal-da-compor-fez-foi-intensificar-o-meu-amor-por-esta-atividade-recomendo-todos {
+  color: #ffffff;
+  text-align: left;
+  font: 900 italic 36px/48px "Merriweather", sans-serif;
+  position: absolute;
+  left: 860px;
+  top: 3745px;
+  width: 578px;
+  height: 251px;
+}
+.lorem {
+  color: var(--p-4, #664400);
+  text-align: left;
+  font: 400 24px/32px "Poppins", sans-serif;
+  position: absolute;
+  left: 860px;
+  top: 4016px;
+}
+
+/*
+. {
+  position: absolute;
+  left: 816px;
+  top: 3727px;
+  overflow: visible;
+}
+.2 {
+  position: absolute;
+  left: 1220px;
+  top: 3952px;
+  overflow: visible;
+}
+*/
+.depoimento-1 {
+  width: 780px;
+  height: 680px;
+  position: absolute;
+  left: 0px;
+  top: 3448px;
+}
+.footer {
+  width: 1600px;
+  height: 481px;
+  position: absolute;
+  left: 0px;
+  top: 5010px;
+}
+.rectangle-45 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.facebook {
+  position: absolute;
+  left: 584px;
+  top: 297px;
+  overflow: visible;
+}
+.instagram {
+  position: absolute;
+  left: 524px;
+  top: 297px;
+  overflow: visible;
+}
+.youtube {
+  position: absolute;
+  left: 644px;
+  top: 297px;
+  overflow: visible;
+}
+.contato {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px/32px "Roboto", sans-serif;
+  position: absolute;
+  left: 520px;
+  top: 73px;
+}
+._55-x-x-xxxx-xxxx-teste-teste-teste-com-brasil {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 400 18px/32px "Inter", sans-serif;
+  position: absolute;
+  left: 520px;
+  top: 137px;
+}
+._55-x-x-xxxx-xxxx-teste-teste-teste-com-brasil-span {
+  color: var(--c-06, #b3b3b3);
+  font: 400 18px/32px "Inter", sans-serif;
+}
+._55-x-x-xxxx-xxxx-teste-teste-teste-com-brasil-span2 {
+  color: var(--c-06, #b3b3b3);
+  font: 400 18px/32px "Inter", sans-serif;
+}
+.todos-direitos-reservados {
+  color: var(--c-04, #cccccc);
+  text-align: left;
+  font: 400 18px/32px "Roboto", sans-serif;
+  position: absolute;
+  left: 220px;
+  top: 389px;
+}
+.informa-es {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px/32px "Roboto", sans-serif;
+  position: absolute;
+  left: 1020px;
+  top: 73px;
+}
+.patinetes-seguros-contatos-termos-e-condi-es {
+  color: var(--c-06, #b3b3b3);
+  text-align: left;
+  font: 500 18px/36px "Inter", sans-serif;
+  position: absolute;
+  left: 1017px;
+  top: 137px;
+}
+.vector12 {
+  position: absolute;
+  left: 220px;
+  top: 84px;
+  overflow: visible;
+}
+.rectangle-46 {
+  background: var(--c-11, #121212);
+  width: 400px;
+  height: 2px;
+  position: absolute;
+  left: 520px;
+  top: 216px;
+}
+.electric-scooter-fill-0-wght-400-grad-0-opsz-48-1 {
+  position: absolute;
+  left: 218px;
+  top: 2549px;
+  overflow: visible;
+}
+.header {
+  width: 1600px;
+  height: 96px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.bg4 {
+  background: var(--c-12, #000000);
+  width: 1600px;
+  height: 96px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1065px;
+  top: 32px;
+}
+.patinetes {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px/32px "Poppins", sans-serif;
+  position: relative;
+}
+.seguros3 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px/32px "Poppins", sans-serif;
+  position: relative;
+}
+.contato2 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px/32px "Poppins", sans-serif;
+  position: relative;
+}
+.compor-logo {
+  position: absolute;
+  left: 219px;
+  top: 41px;
+  overflow: visible;
+}
+.vector15 {
+  position: absolute;
+  left: 507px;
+  top: 2552px;
+  overflow: visible;
+}
+
+    </style>
